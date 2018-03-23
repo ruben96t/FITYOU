@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textViewWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:background="?android:attr/colorActivatedHighlight"
+            android:text="ADD WEIGHT"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <TextView
+            android:id="@+id/textViewCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  Current "
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextCWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Introduce weight (Kg)"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="false"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <TextView
+            android:id="@+id/textViewWFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/buttonIDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduce date" />
+
+
+        <TextView
+            android:id="@+id/textViewDWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

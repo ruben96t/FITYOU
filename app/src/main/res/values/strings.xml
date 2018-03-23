@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FIT * YOU</string>
+    <string name="title_add">Add</string>
+    <string name="title_diary">Diary</string>
+    <string name="title_state">State</string>
+    <string name="action_profile">Profile</string>
+
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>

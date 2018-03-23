@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/buttonRRun"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_red_light"
+        android:drawableBottom="@drawable/running"
+        android:text="run"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRSwim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRBike"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="4dp"
+        android:background="#ffd139"
+        android:drawableBottom="@drawable/bike"
+        android:text="bike"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRGym"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRRun" />
+
+    <Button
+        android:id="@+id/buttonRSwim"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_blue_light"
+        android:drawableBottom="@drawable/swiming"
+        android:text="swim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonRRun"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRGym"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/holo_green_dark"
+        android:drawableBottom="@drawable/dumbbells"
+        android:text="gym"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonRBike"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRSwim" />
+
+    <Button
+        android:id="@+id/buttonRWeight"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:drawableBottom="@drawable/balance"
+        android:onClick="rweight"
+        android:text="Weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
